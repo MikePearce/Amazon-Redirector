@@ -1,0 +1,19 @@
+{
+    "name": "Redirect amazon.com to .co.uk",
+    "version": "1.0",
+    "description": "Silently replaces all amazon.com links with amazon.co.uk links",
+    "permissions": [
+        "webRequest", 
+        "webRequestBlocking",
+        "http://www.amazon.com/*"
+    ],
+    "icons" : {
+        "16" : "logo-16.png",
+        "48" : "logo-48.png",
+        "128" : "logo-128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "manifest_version": 2
+}
